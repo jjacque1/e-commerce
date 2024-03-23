@@ -3,14 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Librarylogo from "../assets/Library.svg";
 
 const Nav = () => {
-  function openMenu() {
-    document.body.classlist += " menu__backdrop";
 
+  function openMenu() {
+    document.body.classList += " menu--open";
   }
 
   function closeMenu() {
-    document.body.classlist.remove("menu__backdrop")
+    document.body.classList.remove("menu--open")
   }
+  
   return (
     <nav>
       <div className="nav__container">
