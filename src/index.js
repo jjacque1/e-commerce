@@ -12,6 +12,8 @@ import {
   faBookOpen,
   faTags,
   faStar,
+  faStarHalfAlt,
+
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -21,7 +23,8 @@ library.add(
   faBolt,
   faBookOpen,
   faTags,
-  faStar
+  faStar,
+  faStarHalfAlt
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
